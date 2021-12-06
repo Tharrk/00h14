@@ -3,6 +3,8 @@
 
     if($date["minutes"] == 14 && $date["hours"] == 0) echo "JOYEUX MINUIT QUATORZE !!!!";
 
+    else if($date["minutes"] == 15 && $date["hours"] == 0) echo "STOOOOP ! Ne vous laissez pas envoûter par la secte de 00h15...";
+
     else if($date["minutes"] < 14 && $date["hours"] == 0)
     {
         $delta = 14 - $date["minutes"];
